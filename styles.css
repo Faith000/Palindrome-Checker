@@ -94,6 +94,7 @@ input:focus {
   border: 3px solid #6E330C;
   padding: 8px;
   border-radius: 8px;
+  font-family: 'Bubblegum Sans';
 }
 
 #result {
@@ -119,7 +120,6 @@ input:focus {
 @media screen and (min-width:360px) and (max-width:767px){
 body{
     background-image: url(../images/Mobile\ PC.png);
-    font-size: 1.4rem;
 }
 
 h1 {
@@ -131,7 +131,7 @@ h1 {
 }
 
 .text-box{
-    width: 20rem;
+    width: 24rem;
     box-shadow: 2px 2px 0 2px #E1AD48;
     padding: 20px 16px;
     font-size: 20px;
@@ -146,12 +146,13 @@ h1 {
 
 #check-btn{
     width: 100%;
-    margin-top: 8px;
-    height: 40px;
+    margin-top: 12px;
+    height: 48px; 
+    font-size: 16px;
 }
 
 .fact {
-    width: 20rem;
+    width: 24rem;
     font-size: 16px;
 }
 
