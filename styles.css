@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+width: 100vw;
+height: 100vh;
+font-family: 'Bubblegum Sans', Arial, Helvetica, sans-serif;;
+font-size: 1.6rem;
+background-image: url(../images/Palindrome\ checker.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+}
+
+h1 {
+    font-size: 64px;
+    color: #9F4305;
+    -webkit-text-stroke: 0.2px #E1AD48;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.question {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#question-01{
+    rotate: 10deg;
+}
+
+#question-02{
+    rotate: -5deg;
+}
+
+#question-03{
+    rotate: 3deg;
+}
+
+#question-04{
+    rotate: 2deg;
+}
+
+#question-05{
+    rotate: 5deg;
+}
+
+.text-box {
+  width: 32rem;
+  padding: 24px;
+  border-radius: 8px;
+  font-size: 24px;
+  background-color: #F4D082;
+  color: white;
+  margin: 0 auto;
+  box-shadow: 5px 5px 0 3px #E1AD48;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#text-input{
+  padding: 8px;
+  width: 20rem;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #6E330C;
+  outline: none;
+  margin-top: 24px;
+}
+
+input:focus {
+  border-color: #6E330C;
+}
+
+#check-btn {
+  background: linear-gradient(to right, #893801, #FF7F00);
+  width: 100px;
+  height: 48px;
+  color: white;
+  border: 3px solid #6E330C;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.fact{
+    width: 32rem;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+    background-color: #9F4305;
+    border: 2px solid #E1AD48;
+    border-radius: 8px;
+    color: white;
+    margin: 24px auto;
+}
+
+
+@media screen and (min-width:360px) and (max-width:767px){
+body{
+    background-image: url(../images/Mobile\ PC.png);
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.question{
+    gap: 8px;
+}
+
+.text-box{
+    width: 20rem;
+    box-shadow: 2px 2px 0 2px #E1AD48;
+    padding: 20px 16px;
+    font-size: 20px;
+}
+
+#text-input{
+  padding: 4px;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+}
+
+#check-btn{
+    width: 100%;
+    margin-top: 8px;
+    height: 40px;
+}
+
+.fact {
+    width: 20rem;
+    font-size: 16px;
+}
+
+.lightbulb{
+    width: 32px;
+}
+
+#result {
+    font-size: 16px;
+}
+
+}
